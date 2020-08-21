@@ -1,9 +1,11 @@
 {
-  "name": "type-script-primer",
-  "version": "1.0.0",
-  "description": "Andiante TypeScript boilerplate to use with VSCode",
+  "name": "utref8-server",
+  "version": "0.0.1",
+  "description": "Server and language server for UTreF-8 project.",
   "main": "index.js",
-  "repository": "https://github.com/andiante-eng/typescript-starter.git",
+  "repository": "https://github.com/andiante-eng/utref8-server.git",
+  "author": "Andiante Engineering",
+  "license": "ISC",
   "scripts": {
     "clean": "rm -rf out",
     "start": "tsc && node out/src/index.js",
@@ -25,8 +27,6 @@
       "git add"
     ]
   },
-  "author": "Andiante Engineering",
-  "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.2.12",
     "@types/mocha": "^5.2.7",
